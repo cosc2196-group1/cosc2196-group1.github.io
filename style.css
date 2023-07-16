@@ -37,6 +37,21 @@ header .display-4 {
     color: var(--color-header-title);
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    z-index: 1000; 
+    background-color: var(--background-color-header-footer);
+
+}
+
 .nav-links {
     display: flex;
     justify-content: space-between;
